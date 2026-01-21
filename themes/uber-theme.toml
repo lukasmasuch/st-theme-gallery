@@ -1,0 +1,48 @@
+# Uber-inspired Streamlit Theme
+# Clean, minimal, get-there aesthetic
+# Bold black with functional simplicity
+
+[theme]
+primaryColor = "#000000"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F6F6"
+codeBackgroundColor = "#F1F1F1"
+textColor = "#000000"
+linkColor = "#000000"
+borderColor = "#E2E2E2"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#000000"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["52px", "36px", "26px", "20px", "16px", "14px"]
+headingFontWeights = [700, 700, 700, 600, 600, 600]
+linkUnderline = true
+chartCategoricalColors = ["#000000", "#276EF1", "#05944F", "#E11900", "#FFC043", "#7356BF", "#00A0DC"]
+
+# Uber palette
+grayColor = "#6B6B6B"
+blueColor = "#276EF1"
+greenColor = "#05944F"
+redColor = "#E11900"
+yellowColor = "#FFC043"
+violetColor = "#7356BF"
+orangeColor = "#F45D22"
+
+dataframeBorderColor = "#E2E2E2"
+dataframeHeaderBackgroundColor = "#F6F6F6"
+
+[theme.sidebar]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#141414"
+codeBackgroundColor = "#0A0A0A"
+textColor = "#FFFFFF"
+borderColor = "#333333"
+primaryColor = "#FFFFFF"
+dataframeHeaderBackgroundColor = "#141414"
+dataframeBorderColor = "#333333"
