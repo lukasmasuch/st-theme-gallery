@@ -30,16 +30,32 @@ def get_available_themes():
     return []
 
 
+# Get available themes first (needed for validation)
+available_themes = get_available_themes()
+
+# Check for theme in query parameters
+query_params = st.query_params
+theme_from_url = query_params.get("theme", None)
+
 # Initialize session state for theme selection
 if "selected_theme" not in st.session_state:
-    st.session_state.selected_theme = DEFAULT_THEME
+    # If theme is in URL and valid, use it; otherwise use default
+    if theme_from_url and theme_from_url in available_themes:
+        st.session_state.selected_theme = theme_from_url
+    elif theme_from_url:
+        # Try with -theme suffix
+        theme_with_suffix = f"{theme_from_url}-theme"
+        if theme_with_suffix in available_themes:
+            st.session_state.selected_theme = theme_with_suffix
+        else:
+            st.session_state.selected_theme = DEFAULT_THEME
+    else:
+        st.session_state.selected_theme = DEFAULT_THEME
 
 # Load the theme for this session (must be early, before other st.* calls)
 theme_loader.load_theme_by_name(st.session_state.selected_theme, THEMES_DIR)
 
 # Theme selector in sidebar
-available_themes = get_available_themes()
-
 if available_themes:
     # Find current theme index
     current_index = 0
@@ -54,9 +70,11 @@ if available_themes:
         key="theme_selector",
     )
 
-    # Update session state if theme changed
+    # Update session state and URL if theme changed
     if selected_theme != st.session_state.selected_theme:
         st.session_state.selected_theme = selected_theme
+        # Update URL query parameter for sharing
+        st.query_params["theme"] = selected_theme
         st.rerun()
 
 st.sidebar.divider()
