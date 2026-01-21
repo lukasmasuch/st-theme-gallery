@@ -1,0 +1,38 @@
+# Google-inspired Streamlit Theme
+# Uses Roboto (Google's signature font)
+# Google's design: clean, colorful, accessible with Material Design influence
+
+[theme]
+primaryColor = "#1a73e8"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+codeBackgroundColor = "#f1f3f4"
+textColor = "#202124"
+linkColor = "#1a73e8"
+borderColor = "#dadce0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "20px"
+font = "Roboto:https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+codeFont = "'Roboto Mono':https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#202124"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "14px", "12px"]
+headingFontWeights = [400, 400, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#1a73e8", "#ea4335", "#fbbc04", "#34a853", "#4285f4", "#ff6d01", "#46bdc6"]
+
+# Google color palette (Material colors)
+blueColor = "#1a73e8"
+redColor = "#ea4335"
+yellowColor = "#fbbc04"
+greenColor = "#34a853"
+
+[theme.sidebar]
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#f1f3f4"
+codeBackgroundColor = "#e8eaed"
+borderColor = "#dadce0"

@@ -1,0 +1,42 @@
+# Slack-inspired Streamlit Theme
+# Uses Lato (similar to Slack's typography)
+# Slack's design: friendly, productive, colorful with signature purple/aubergine
+
+[theme]
+primaryColor = "#611f69"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f8f8"
+codeBackgroundColor = "#f8f8f8"
+textColor = "#1d1c1d"
+linkColor = "#1264a3"
+borderColor = "#dddddd"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "4px"
+font = "Lato:https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.8rem"
+codeTextColor = "#e01e5a"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [900, 700, 700, 700, 700, 700]
+linkUnderline = false
+chartCategoricalColors = ["#611f69", "#36c5f0", "#2eb67d", "#e01e5a", "#ecb22e", "#1264a3", "#4a154b"]
+
+# Slack color palette
+violetColor = "#611f69"
+blueColor = "#36c5f0"
+greenColor = "#2eb67d"
+redColor = "#e01e5a"
+yellowColor = "#ecb22e"
+
+[theme.sidebar]
+primaryColor = "#ffffff"
+backgroundColor = "#4a154b"
+secondaryBackgroundColor = "#3e103f"
+codeBackgroundColor = "#3e103f"
+textColor = "#ffffff"
+borderColor = "#522653"
+linkColor = "#ffffff"

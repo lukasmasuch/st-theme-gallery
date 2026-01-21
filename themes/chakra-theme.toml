@@ -1,0 +1,48 @@
+# Chakra UI-inspired Streamlit Theme
+# Clean, accessible, developer-friendly design system
+# Signature teal with warm, approachable aesthetic
+
+[theme]
+primaryColor = "#319795"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7FAFC"
+codeBackgroundColor = "#EDF2F7"
+textColor = "#1A202C"
+linkColor = "#319795"
+borderColor = "#E2E8F0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1A202C"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["36px", "30px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [700, 600, 600, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#319795", "#3182CE", "#805AD5", "#D53F8C", "#DD6B20", "#38A169", "#E53E3E"]
+
+# Chakra UI color palette
+greenColor = "#38A169"
+blueColor = "#3182CE"
+violetColor = "#805AD5"
+redColor = "#E53E3E"
+orangeColor = "#DD6B20"
+yellowColor = "#D69E2E"
+grayColor = "#718096"
+
+dataframeBorderColor = "#E2E8F0"
+dataframeHeaderBackgroundColor = "#EDF2F7"
+
+[theme.sidebar]
+backgroundColor = "#1A202C"
+secondaryBackgroundColor = "#2D3748"
+codeBackgroundColor = "#171923"
+textColor = "#F7FAFC"
+borderColor = "#4A5568"
+primaryColor = "#4FD1C5"
+dataframeHeaderBackgroundColor = "#2D3748"
+dataframeBorderColor = "#4A5568"

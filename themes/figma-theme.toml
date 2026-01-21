@@ -1,0 +1,39 @@
+# Figma-inspired Streamlit Theme
+# Uses Inter (Figma's primary font)
+# Figma's design: collaborative, design-focused, modern with signature purple
+
+[theme]
+primaryColor = "#a259ff"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f5"
+codeBackgroundColor = "#f5f5f5"
+textColor = "#333333"
+linkColor = "#a259ff"
+borderColor = "#e5e5e5"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+codeTextColor = "#333333"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#a259ff", "#1abcfe", "#0acf83", "#ff7262", "#f24e1e", "#ffcd29", "#a259ff"]
+
+# Figma color palette
+violetColor = "#a259ff"
+blueColor = "#1abcfe"
+greenColor = "#0acf83"
+redColor = "#f24e1e"
+yellowColor = "#ffcd29"
+
+[theme.sidebar]
+backgroundColor = "#f5f5f5"
+secondaryBackgroundColor = "#e8e8e8"
+codeBackgroundColor = "#e8e8e8"
+borderColor = "#e5e5e5"

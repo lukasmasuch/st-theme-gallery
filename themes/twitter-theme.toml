@@ -1,0 +1,39 @@
+# Twitter/X-inspired Streamlit Theme
+# Uses Inter (similar to Chirp/system fonts)
+# Twitter's design: conversational, fast, clean with signature blue
+
+[theme]
+primaryColor = "#1d9bf0"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f9f9"
+codeBackgroundColor = "#f7f9f9"
+textColor = "#0f1419"
+linkColor = "#1d9bf0"
+borderColor = "#eff3f4"
+showWidgetBorder = false
+showSidebarBorder = true
+baseRadius = "16px"
+buttonRadius = "full"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#0f1419"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 700, 700, 700, 700]
+linkUnderline = false
+chartCategoricalColors = ["#1d9bf0", "#00ba7c", "#f91880", "#ffd400", "#7856ff", "#ff7a00", "#8ecdf7"]
+
+# Twitter color palette
+blueColor = "#1d9bf0"
+greenColor = "#00ba7c"
+redColor = "#f91880"
+yellowColor = "#ffd400"
+violetColor = "#7856ff"
+
+[theme.sidebar]
+backgroundColor = "#f7f9f9"
+secondaryBackgroundColor = "#eff3f4"
+codeBackgroundColor = "#eff3f4"
+borderColor = "#eff3f4"

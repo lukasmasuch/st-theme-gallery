@@ -1,0 +1,31 @@
+# NTT Data-inspired Streamlit Theme
+# Uses Roboto (similar to their corporate font)
+# NTT Data's design: corporate, professional, trustworthy with signature red
+
+[theme]
+primaryColor = "#cc0233"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f8f8"
+codeBackgroundColor = "#f4f4f4"
+textColor = "#000000"
+linkColor = "#0a3474"
+borderColor = "#dcdcdc"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "Roboto:https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+codeFont = "'Roboto Mono':https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["33px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [700, 700, 700, 700, 700, 700]
+linkUnderline = false
+chartCategoricalColors = ["#cc0233", "#0a3474", "#00a0e9", "#7dc242", "#f39800", "#8b4513", "#666666"]
+
+[theme.sidebar]
+backgroundColor = "#f5f5f5"
+secondaryBackgroundColor = "#eeeeee"
+codeBackgroundColor = "#e8e8e8"
+borderColor = "#d0d0d0"

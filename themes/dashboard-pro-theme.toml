@@ -1,0 +1,50 @@
+# Dashboard Pro Theme for Streamlit
+# Optimized for BI dashboards and data applications
+# High contrast, excellent readability, professional appearance
+
+[theme]
+primaryColor = "#2563eb"
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#ffffff"
+codeBackgroundColor = "#f1f5f9"
+textColor = "#1e293b"
+linkColor = "#2563eb"
+borderColor = "#e2e8f0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "6px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "13px"
+codeTextColor = "#334155"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 500, 500, 500]
+linkUnderline = false
+# Carefully selected for data visualization - colorblind-friendly
+chartCategoricalColors = ["#2563eb", "#16a34a", "#ea580c", "#7c3aed", "#0891b2", "#ca8a04", "#dc2626", "#64748b"]
+# Sequential colors for heatmaps and gradients
+chartSequentialColors = ["#eff6ff", "#dbeafe", "#bfdbfe", "#93c5fd", "#60a5fa", "#3b82f6", "#2563eb", "#1d4ed8", "#1e40af", "#1e3a8a"]
+
+# Dashboard-optimized colors
+blueColor = "#2563eb"
+greenColor = "#16a34a"
+orangeColor = "#ea580c"
+redColor = "#dc2626"
+violetColor = "#7c3aed"
+yellowColor = "#ca8a04"
+grayColor = "#64748b"
+
+# Dataframe styling
+dataframeBorderColor = "#e2e8f0"
+dataframeHeaderBackgroundColor = "#f1f5f9"
+
+[theme.sidebar]
+backgroundColor = "#1e293b"
+secondaryBackgroundColor = "#334155"
+codeBackgroundColor = "#1e293b"
+textColor = "#f8fafc"
+borderColor = "#475569"
+dataframeHeaderBackgroundColor = "#334155"

@@ -1,0 +1,49 @@
+# MS-DOS Theme for Streamlit
+# Classic command line aesthetic
+# Blue screens, blinking cursors, 16-color glory
+
+[theme]
+base = "dark"
+primaryColor = "#FFFF00"
+backgroundColor = "#0000AA"
+secondaryBackgroundColor = "#000080"
+codeBackgroundColor = "#000000"
+textColor = "#FFFFFF"
+linkColor = "#00FFFF"
+borderColor = "#0000AA"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0px"
+buttonRadius = "0px"
+font = "'VT323':https://fonts.googleapis.com/css2?family=VT323&display=swap"
+codeFont = "'VT323':https://fonts.googleapis.com/css2?family=VT323&display=swap"
+codeFontSize = "1.1rem"
+codeTextColor = "#00FF00"
+baseFontSize = 20
+baseFontWeight = 400
+headingFontSizes = ["28px", "24px", "22px", "20px", "18px", "16px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = false
+chartCategoricalColors = ["#FFFF00", "#00FFFF", "#FF00FF", "#00FF00", "#FF0000", "#FFFFFF", "#FF5500"]
+
+# DOS 16-color palette
+yellowColor = "#FFFF00"
+blueColor = "#0000FF"
+greenColor = "#00FF00"
+redColor = "#FF0000"
+violetColor = "#FF00FF"
+orangeColor = "#FF5500"
+grayColor = "#AAAAAA"
+
+dataframeBorderColor = "#FFFFFF"
+dataframeHeaderBackgroundColor = "#000080"
+
+[theme.sidebar]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#1A1A1A"
+codeBackgroundColor = "#000000"
+textColor = "#00FF00"
+borderColor = "#00FF00"
+primaryColor = "#00FF00"
+dataframeHeaderBackgroundColor = "#1A1A1A"
+dataframeBorderColor = "#00FF00"

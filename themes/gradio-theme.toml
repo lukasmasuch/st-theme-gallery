@@ -1,0 +1,48 @@
+# Gradio-inspired Streamlit Theme
+# ML interface aesthetic
+# Friendly orange, clean components for AI demos
+
+[theme]
+primaryColor = "#FF7C00"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F7F8"
+codeBackgroundColor = "#F0F0F1"
+textColor = "#1F2937"
+linkColor = "#FF7C00"
+borderColor = "#E5E7EB"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1F2937"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["30px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#FF7C00", "#10B981", "#3B82F6", "#8B5CF6", "#EF4444", "#F59E0B", "#EC4899"]
+
+# Gradio-inspired palette
+orangeColor = "#FF7C00"
+greenColor = "#10B981"
+blueColor = "#3B82F6"
+violetColor = "#8B5CF6"
+redColor = "#EF4444"
+yellowColor = "#F59E0B"
+grayColor = "#6B7280"
+
+dataframeBorderColor = "#E5E7EB"
+dataframeHeaderBackgroundColor = "#F7F7F8"
+
+[theme.sidebar]
+backgroundColor = "#F7F7F8"
+secondaryBackgroundColor = "#EBEBED"
+codeBackgroundColor = "#E0E0E2"
+textColor = "#1F2937"
+borderColor = "#D1D5DB"
+primaryColor = "#FF7C00"
+dataframeHeaderBackgroundColor = "#EBEBED"
+dataframeBorderColor = "#D1D5DB"

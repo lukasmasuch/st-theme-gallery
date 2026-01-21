@@ -1,0 +1,39 @@
+# Shopify-inspired Streamlit Theme
+# Uses Plus Jakarta Sans (similar to Shopify Sans)
+# Shopify's design: e-commerce friendly, approachable, with signature green
+
+[theme]
+primaryColor = "#008060"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f6f6f7"
+codeBackgroundColor = "#f6f6f7"
+textColor = "#202223"
+linkColor = "#005a47"
+borderColor = "#e1e3e5"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#202223"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#008060", "#00a47c", "#5c6ac4", "#47c1bf", "#f49342", "#de3618", "#9c6ade"]
+
+# Shopify color palette
+greenColor = "#008060"
+violetColor = "#5c6ac4"
+blueColor = "#47c1bf"
+orangeColor = "#f49342"
+redColor = "#de3618"
+
+[theme.sidebar]
+backgroundColor = "#f6f6f7"
+secondaryBackgroundColor = "#edeeef"
+codeBackgroundColor = "#edeeef"
+borderColor = "#e1e3e5"

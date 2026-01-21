@@ -1,0 +1,41 @@
+# AWS-inspired Streamlit Theme
+# Uses Amazon Ember via Open Sans (similar look)
+# AWS's design: professional, reliable, cloud-focused with signature orange
+
+[theme]
+primaryColor = "#ff9900"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f7f7"
+codeBackgroundColor = "#f1f3f3"
+textColor = "#232f3e"
+linkColor = "#0073bb"
+borderColor = "#d5dbdb"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#232f3e"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#ff9900", "#232f3e", "#0073bb", "#1a8a4f", "#dd6b10", "#8c4fff", "#879596"]
+
+# AWS color palette
+orangeColor = "#ff9900"
+blueColor = "#0073bb"
+greenColor = "#1a8a4f"
+violetColor = "#8c4fff"
+
+[theme.sidebar]
+backgroundColor = "#232f3e"
+secondaryBackgroundColor = "#1a242f"
+codeBackgroundColor = "#1a242f"
+textColor = "#ffffff"
+borderColor = "#3b4a59"
+linkColor = "#ff9900"
+primaryColor = "#ff9900"

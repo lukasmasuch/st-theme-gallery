@@ -1,0 +1,41 @@
+# Tableau Theme for Streamlit
+# Clean, professional data visualization aesthetic
+# Uses Tableau's signature blue and color palette
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f5"
+codeBackgroundColor = "#f0f0f0"
+textColor = "#333333"
+linkColor = "#1f77b4"
+borderColor = "#d4d4d4"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'Source Sans 3':https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "13px"
+codeTextColor = "#333333"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 500, 500, 500]
+linkUnderline = false
+# Tableau 10 color palette - the classic data viz colors
+chartCategoricalColors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
+
+# Tableau colors
+blueColor = "#1f77b4"
+orangeColor = "#ff7f0e"
+greenColor = "#2ca02c"
+redColor = "#d62728"
+violetColor = "#9467bd"
+yellowColor = "#bcbd22"
+
+[theme.sidebar]
+backgroundColor = "#f0f0f0"
+secondaryBackgroundColor = "#e8e8e8"
+codeBackgroundColor = "#e0e0e0"
+borderColor = "#d4d4d4"

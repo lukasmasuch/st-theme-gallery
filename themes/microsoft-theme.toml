@@ -1,0 +1,39 @@
+# Microsoft-inspired Streamlit Theme
+# Uses Open Sans (similar to Segoe UI)
+# Microsoft's design: clean, professional, Fluent Design influence with signature blue
+
+[theme]
+primaryColor = "#0078d4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f2f1"
+codeBackgroundColor = "#f3f2f1"
+textColor = "#323130"
+linkColor = "#0078d4"
+borderColor = "#edebe9"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'Cascadia Code':https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#323130"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "28px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#0078d4", "#107c10", "#ffb900", "#d83b01", "#5c2d91", "#008272", "#b4009e"]
+
+# Microsoft color palette
+blueColor = "#0078d4"
+greenColor = "#107c10"
+yellowColor = "#ffb900"
+redColor = "#d83b01"
+violetColor = "#5c2d91"
+
+[theme.sidebar]
+backgroundColor = "#f3f2f1"
+secondaryBackgroundColor = "#edebe9"
+codeBackgroundColor = "#edebe9"
+borderColor = "#e1dfdd"

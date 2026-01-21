@@ -1,0 +1,48 @@
+# Windows 95 Theme for Streamlit
+# Classic retro computing aesthetic
+# Teal desktop, gray windows, beveled buttons
+
+[theme]
+primaryColor = "#000080"
+backgroundColor = "#C0C0C0"
+secondaryBackgroundColor = "#DFDFDF"
+codeBackgroundColor = "#FFFFFF"
+textColor = "#000000"
+linkColor = "#0000FF"
+borderColor = "#808080"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0px"
+buttonRadius = "0px"
+font = "'VT323':https://fonts.googleapis.com/css2?family=VT323&display=swap"
+codeFont = "'VT323':https://fonts.googleapis.com/css2?family=VT323&display=swap"
+codeFontSize = "1rem"
+codeTextColor = "#000000"
+baseFontSize = 18
+baseFontWeight = 400
+headingFontSizes = ["28px", "24px", "20px", "18px", "16px", "14px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = true
+chartCategoricalColors = ["#000080", "#008080", "#800000", "#008000", "#808000", "#800080", "#FF0000"]
+
+# Windows 95 palette - 16 color vibes
+blueColor = "#000080"
+greenColor = "#008000"
+redColor = "#FF0000"
+yellowColor = "#FFFF00"
+violetColor = "#800080"
+orangeColor = "#FF8000"
+grayColor = "#808080"
+
+dataframeBorderColor = "#808080"
+dataframeHeaderBackgroundColor = "#000080"
+
+[theme.sidebar]
+backgroundColor = "#008080"
+secondaryBackgroundColor = "#006666"
+codeBackgroundColor = "#004040"
+textColor = "#FFFFFF"
+borderColor = "#004040"
+primaryColor = "#FFFF00"
+dataframeHeaderBackgroundColor = "#006666"
+dataframeBorderColor = "#004040"

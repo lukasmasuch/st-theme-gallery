@@ -1,0 +1,39 @@
+# Linear-inspired Streamlit Theme
+# Uses Inter (Linear's primary font)
+# Linear's design: sleek, modern, dark-first with signature purple/violet accents
+
+[theme]
+base = "dark"
+primaryColor = "#5e6ad2"
+backgroundColor = "#0e0e10"
+secondaryBackgroundColor = "#17171a"
+codeBackgroundColor = "#17171a"
+textColor = "#f7f8f8"
+linkColor = "#5e6ad2"
+borderColor = "#26262a"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+codeTextColor = "#b4bcd0"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [500, 500, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#5e6ad2", "#26b5ce", "#f2c94c", "#f76e6c", "#8b5cf6", "#ec4899", "#10b981"]
+
+# Linear color palette
+violetColor = "#5e6ad2"
+blueColor = "#26b5ce"
+yellowColor = "#f2c94c"
+redColor = "#f76e6c"
+
+[theme.sidebar]
+backgroundColor = "#0a0a0c"
+secondaryBackgroundColor = "#17171a"
+codeBackgroundColor = "#17171a"
+borderColor = "#202024"

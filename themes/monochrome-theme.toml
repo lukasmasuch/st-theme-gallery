@@ -1,0 +1,46 @@
+# Monochrome Theme for Streamlit
+# Pure black and white elegance
+# Timeless, clean, and distraction-free
+
+[theme]
+primaryColor = "#000000"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f5"
+codeBackgroundColor = "#f0f0f0"
+textColor = "#000000"
+linkColor = "#000000"
+borderColor = "#e0e0e0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1a1a1a"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [600, 600, 500, 500, 500, 500]
+linkUnderline = true
+# Grayscale chart colors
+chartCategoricalColors = ["#000000", "#333333", "#555555", "#777777", "#999999", "#bbbbbb", "#dddddd"]
+
+# All grayscale
+redColor = "#333333"
+orangeColor = "#444444"
+yellowColor = "#666666"
+greenColor = "#555555"
+blueColor = "#222222"
+violetColor = "#777777"
+grayColor = "#888888"
+
+dataframeBorderColor = "#e0e0e0"
+dataframeHeaderBackgroundColor = "#f5f5f5"
+
+[theme.sidebar]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#1a1a1a"
+codeBackgroundColor = "#0a0a0a"
+textColor = "#ffffff"
+borderColor = "#333333"

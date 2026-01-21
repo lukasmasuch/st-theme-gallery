@@ -1,0 +1,48 @@
+# Amazon-inspired Streamlit Theme
+# E-commerce giant aesthetic
+# Signature orange smile on dark navy
+
+[theme]
+primaryColor = "#FF9900"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F8F8"
+codeBackgroundColor = "#EAEDED"
+textColor = "#0F1111"
+linkColor = "#007185"
+borderColor = "#D5D9D9"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#0F1111"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "24px", "20px", "17px", "14px", "13px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#FF9900", "#007185", "#232F3E", "#C7511F", "#146EB4", "#E47911", "#565959"]
+
+# Amazon palette
+orangeColor = "#FF9900"
+blueColor = "#007185"
+greenColor = "#067D62"
+redColor = "#B12704"
+yellowColor = "#FFA41C"
+violetColor = "#8666C7"
+grayColor = "#565959"
+
+dataframeBorderColor = "#D5D9D9"
+dataframeHeaderBackgroundColor = "#EAEDED"
+
+[theme.sidebar]
+backgroundColor = "#232F3E"
+secondaryBackgroundColor = "#37475A"
+codeBackgroundColor = "#131A22"
+textColor = "#FFFFFF"
+borderColor = "#3D4F61"
+primaryColor = "#FF9900"
+dataframeHeaderBackgroundColor = "#37475A"
+dataframeBorderColor = "#3D4F61"
