@@ -1,0 +1,50 @@
+# LSD Psychedelic Theme for Streamlit
+# Trippy, vibrant, mind-bending colors
+# Turn on, tune in, drop out
+
+[theme]
+base = "dark"
+primaryColor = "#FF00FF"
+backgroundColor = "#0A0A1A"
+secondaryBackgroundColor = "#1A0A2E"
+codeBackgroundColor = "#0D0D1F"
+textColor = "#FFFFFF"
+linkColor = "#00FFFF"
+borderColor = "#FF00FF"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "20px"
+buttonRadius = "full"
+font = "'Permanent Marker':https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+headingFont = "'Bungee':https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+codeFont = "'Press Start 2P':https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+codeFontSize = "0.7rem"
+codeTextColor = "#00FF00"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["48px", "36px", "28px", "22px", "18px", "14px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = false
+chartCategoricalColors = ["#FF00FF", "#00FFFF", "#FFFF00", "#FF0080", "#00FF00", "#FF8000", "#8000FF"]
+
+# Psychedelic rainbow palette
+violetColor = "#FF00FF"
+blueColor = "#00FFFF"
+yellowColor = "#FFFF00"
+redColor = "#FF0080"
+greenColor = "#00FF00"
+orangeColor = "#FF8000"
+grayColor = "#8080FF"
+
+dataframeBorderColor = "#FF00FF"
+dataframeHeaderBackgroundColor = "#2A1A4E"
+
+[theme.sidebar]
+backgroundColor = "#1A0A2E"
+secondaryBackgroundColor = "#2A1A4E"
+codeBackgroundColor = "#0D0D1F"
+textColor = "#00FFFF"
+borderColor = "#FF00FF"
+primaryColor = "#FFFF00"
+dataframeHeaderBackgroundColor = "#2A1A4E"
+dataframeBorderColor = "#FF00FF"

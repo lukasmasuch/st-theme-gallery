@@ -1,0 +1,49 @@
+# Pirate Theme for Streamlit
+# Ahoy! Treasure maps, rum, and the seven seas
+# Aged parchment, gold doubloons, and ocean depths
+
+[theme]
+primaryColor = "#D4AF37"
+backgroundColor = "#F5E6C8"
+secondaryBackgroundColor = "#E8D4A8"
+codeBackgroundColor = "#2C1810"
+textColor = "#2C1810"
+linkColor = "#8B0000"
+borderColor = "#C4A060"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'Crimson Text':https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap"
+headingFont = "'Pirata One':https://fonts.googleapis.com/css2?family=Pirata+One&display=swap"
+codeFont = "'Special Elite':https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+codeFontSize = "0.9rem"
+codeTextColor = "#F5E6C8"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["42px", "32px", "26px", "20px", "16px", "14px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = false
+chartCategoricalColors = ["#D4AF37", "#1A3A5C", "#8B0000", "#2C1810", "#006D5B", "#8B4513", "#4A0E0E"]
+
+# Pirate treasure palette
+yellowColor = "#D4AF37"
+blueColor = "#1A3A5C"
+redColor = "#8B0000"
+greenColor = "#006D5B"
+orangeColor = "#8B4513"
+violetColor = "#4A0E4E"
+grayColor = "#6B5B4F"
+
+dataframeBorderColor = "#C4A060"
+dataframeHeaderBackgroundColor = "#DCC9A0"
+
+[theme.sidebar]
+backgroundColor = "#1A3A5C"
+secondaryBackgroundColor = "#0D2137"
+codeBackgroundColor = "#0A1828"
+textColor = "#F5E6C8"
+borderColor = "#2A4A6C"
+primaryColor = "#D4AF37"
+dataframeHeaderBackgroundColor = "#0D2137"
+dataframeBorderColor = "#2A4A6C"
