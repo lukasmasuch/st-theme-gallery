@@ -1,0 +1,49 @@
+# Medieval Theme for Streamlit
+# Aged parchment, royal colors, and classical typography
+# Inspired by illuminated manuscripts and castle halls
+
+[theme]
+primaryColor = "#8B0000"
+backgroundColor = "#F5E6D3"
+secondaryBackgroundColor = "#EAD9C4"
+codeBackgroundColor = "#E0D0BA"
+textColor = "#2C1810"
+linkColor = "#8B0000"
+borderColor = "#C4A77D"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "2px"
+buttonRadius = "2px"
+font = "'Crimson Text':https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap"
+headingFont = "'Cinzel':https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap"
+codeFont = "'EB Garamond':https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap"
+codeFontSize = "0.9rem"
+codeTextColor = "#2C1810"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["38px", "30px", "24px", "20px", "18px", "16px"]
+headingFontWeights = [600, 600, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#8B0000", "#1E3A5F", "#2D5016", "#B8860B", "#4A0E4E", "#8B4513", "#36454F"]
+
+# Medieval color palette - royal and earthy
+redColor = "#8B0000"
+blueColor = "#1E3A5F"
+greenColor = "#2D5016"
+yellowColor = "#B8860B"
+violetColor = "#4A0E4E"
+orangeColor = "#8B4513"
+grayColor = "#5C4033"
+
+dataframeBorderColor = "#C4A77D"
+dataframeHeaderBackgroundColor = "#DCC9AC"
+
+[theme.sidebar]
+backgroundColor = "#2C1810"
+secondaryBackgroundColor = "#3D2817"
+codeBackgroundColor = "#1C0F08"
+textColor = "#F5E6D3"
+borderColor = "#5C4033"
+primaryColor = "#D4AF37"
+dataframeHeaderBackgroundColor = "#3D2817"
+dataframeBorderColor = "#5C4033"

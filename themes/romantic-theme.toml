@@ -1,0 +1,41 @@
+# Romantic Theme for Streamlit
+# Soft, elegant, and warm with rose and blush tones
+# Perfect for lifestyle, wellness, and creative apps
+
+[theme]
+primaryColor = "#e11d48"
+backgroundColor = "#fffbfc"
+secondaryBackgroundColor = "#fff1f3"
+codeBackgroundColor = "#ffe4e8"
+textColor = "#4a3f42"
+linkColor = "#be185d"
+borderColor = "#fecdd3"
+showWidgetBorder = false
+showSidebarBorder = false
+baseRadius = "20px"
+buttonRadius = "full"
+font = "'Cormorant Garamond':https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+headingFont = "'Playfair Display':https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+codeFont = "'Crimson Pro':https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&display=swap"
+codeFontSize = "0.9rem"
+codeTextColor = "#881337"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["42px", "34px", "26px", "20px", "16px", "14px"]
+headingFontWeights = [500, 500, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#e11d48", "#f472b6", "#c084fc", "#a78bfa", "#fbbf24", "#fb923c", "#34d399"]
+
+# Romantic color palette
+redColor = "#e11d48"
+violetColor = "#c084fc"
+orangeColor = "#fb923c"
+yellowColor = "#fbbf24"
+greenColor = "#34d399"
+blueColor = "#60a5fa"
+
+[theme.sidebar]
+backgroundColor = "#fff1f3"
+secondaryBackgroundColor = "#ffe4e8"
+codeBackgroundColor = "#fecdd3"
+borderColor = "#fda4af"

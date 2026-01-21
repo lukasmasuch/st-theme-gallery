@@ -1,0 +1,41 @@
+# Hacker Theme for Streamlit
+# Classic green-on-black terminal aesthetic
+# Matrix-inspired, cyberpunk vibes
+
+[theme]
+base = "dark"
+primaryColor = "#00ff00"
+backgroundColor = "#0a0a0a"
+secondaryBackgroundColor = "#0d1117"
+codeBackgroundColor = "#000000"
+textColor = "#00ff00"
+linkColor = "#00ff00"
+borderColor = "#003300"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0px"
+buttonRadius = "0px"
+font = "'Share Tech Mono':https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+codeFont = "'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "14px"
+codeTextColor = "#00ff00"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = true
+chartCategoricalColors = ["#00ff00", "#00cc00", "#009900", "#00ff66", "#33ff33", "#66ff66", "#99ff99"]
+
+# Hacker color palette (all greens)
+greenColor = "#00ff00"
+blueColor = "#00ffff"
+yellowColor = "#ccff00"
+redColor = "#ff0000"
+violetColor = "#ff00ff"
+
+[theme.sidebar]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#0a0a0a"
+codeBackgroundColor = "#000000"
+textColor = "#00ff00"
+borderColor = "#003300"

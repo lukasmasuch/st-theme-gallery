@@ -1,0 +1,37 @@
+# Netflix-inspired Streamlit Theme
+# Uses Bebas Neue for headings (similar to Netflix Sans) and Inter for body
+# Netflix's design: bold, cinematic, high contrast with signature red
+
+[theme]
+base = "dark"
+primaryColor = "#E50914"
+backgroundColor = "#141414"
+secondaryBackgroundColor = "#1f1f1f"
+codeBackgroundColor = "#1f1f1f"
+textColor = "#ffffff"
+linkColor = "#E50914"
+borderColor = "#333333"
+showWidgetBorder = false
+showSidebarBorder = false
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+headingFont = "'Bebas Neue':https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+codeFont = "'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["56px", "42px", "32px", "24px", "20px", "16px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = false
+chartCategoricalColors = ["#E50914", "#B20710", "#ffffff", "#564d4d", "#831010", "#e5e5e5", "#221f1f"]
+
+# Netflix color palette
+redColor = "#E50914"
+grayColor = "#808080"
+
+[theme.sidebar]
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#1a1a1a"
+codeBackgroundColor = "#1a1a1a"
+borderColor = "#2d2d2d"

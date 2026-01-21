@@ -1,0 +1,38 @@
+# Hotdog Theme - The Classic "Not Hotdog" Aesthetic
+# Bold red and yellow, playful and eye-catching
+# Inspired by the classic hotdog color scheme
+
+[theme]
+primaryColor = "#FF0000"
+backgroundColor = "#FFCC00"
+secondaryBackgroundColor = "#FFE066"
+codeBackgroundColor = "#FFF5CC"
+textColor = "#8B0000"
+linkColor = "#CC0000"
+borderColor = "#FF6600"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "full"
+buttonRadius = "full"
+font = "'Fredoka':https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
+codeFont = "'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#8B0000"
+baseFontSize = 16
+baseFontWeight = 500
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#FF0000", "#FFCC00", "#FF6600", "#CC0000", "#FFE066", "#8B0000", "#FFA500"]
+
+# Hotdog color palette
+redColor = "#FF0000"
+yellowColor = "#FFCC00"
+orangeColor = "#FF6600"
+
+[theme.sidebar]
+backgroundColor = "#CC0000"
+secondaryBackgroundColor = "#990000"
+codeBackgroundColor = "#800000"
+textColor = "#FFFFFF"
+borderColor = "#FF6600"

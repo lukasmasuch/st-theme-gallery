@@ -1,0 +1,49 @@
+# Claude No. 1 - My Favorite Theme
+# A balance of warmth and clarity, intelligence and approachability
+# Like a well-lit library meets modern design studio
+
+[theme]
+primaryColor = "#0D9488"
+backgroundColor = "#FDFCFB"
+secondaryBackgroundColor = "#F6F4F1"
+codeBackgroundColor = "#EFECEA"
+textColor = "#2D2A26"
+linkColor = "#0D9488"
+borderColor = "#E8E4E0"
+showWidgetBorder = false
+showSidebarBorder = false
+baseRadius = "10px"
+buttonRadius = "8px"
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+headingFont = "'Fraunces':https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+codeTextColor = "#2D2A26"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["38px", "30px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [600, 500, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#0D9488", "#F59E0B", "#8B5CF6", "#EC4899", "#3B82F6", "#10B981", "#F97316"]
+
+# A thoughtful palette - each color chosen for clarity and harmony
+greenColor = "#0D9488"
+yellowColor = "#F59E0B"
+violetColor = "#8B5CF6"
+redColor = "#EF4444"
+blueColor = "#3B82F6"
+orangeColor = "#F97316"
+grayColor = "#64748B"
+
+dataframeBorderColor = "#D8D4D0"
+dataframeHeaderBackgroundColor = "#E8E4E0"
+
+[theme.sidebar]
+backgroundColor = "#2D2A26"
+secondaryBackgroundColor = "#3D3A36"
+codeBackgroundColor = "#1D1A16"
+textColor = "#FDFCFB"
+borderColor = "#4D4A46"
+primaryColor = "#2DD4BF"
+dataframeHeaderBackgroundColor = "#3D3A36"
+dataframeBorderColor = "#4D4A46"

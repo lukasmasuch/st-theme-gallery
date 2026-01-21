@@ -1,0 +1,48 @@
+# macOS-inspired Streamlit Theme
+# Apple's desktop operating system aesthetic
+# Clean, refined, system-level polish
+
+[theme]
+primaryColor = "#007AFF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F7"
+codeBackgroundColor = "#F5F5F7"
+textColor = "#1D1D1F"
+linkColor = "#007AFF"
+borderColor = "#D2D2D7"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "6px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'SF Mono', 'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.8125rem"
+codeTextColor = "#1D1D1F"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "26px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#007AFF", "#34C759", "#FF3B30", "#FF9500", "#AF52DE", "#5AC8FA", "#FF2D55"]
+
+# macOS system colors
+blueColor = "#007AFF"
+greenColor = "#34C759"
+redColor = "#FF3B30"
+yellowColor = "#FFCC00"
+orangeColor = "#FF9500"
+violetColor = "#AF52DE"
+grayColor = "#8E8E93"
+
+dataframeBorderColor = "#D2D2D7"
+dataframeHeaderBackgroundColor = "#F5F5F7"
+
+[theme.sidebar]
+backgroundColor = "#F5F5F7"
+secondaryBackgroundColor = "#EBEBF0"
+codeBackgroundColor = "#E5E5EA"
+textColor = "#1D1D1F"
+borderColor = "#D2D2D7"
+primaryColor = "#007AFF"
+dataframeHeaderBackgroundColor = "#EBEBF0"
+dataframeBorderColor = "#D2D2D7"

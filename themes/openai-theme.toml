@@ -1,0 +1,37 @@
+# OpenAI-inspired Streamlit Theme
+# Uses Inter (similar to OpenAI's typography)
+# OpenAI's design: clean, futuristic, minimal with signature green accent
+
+[theme]
+primaryColor = "#10a37f"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f7f8"
+codeBackgroundColor = "#f7f7f8"
+textColor = "#353740"
+linkColor = "#10a37f"
+borderColor = "#ececf1"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#353740"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#10a37f", "#6e6e80", "#353740", "#19c37d", "#9a9aa8", "#ab68ff", "#2ecc71"]
+
+# OpenAI color palette
+greenColor = "#10a37f"
+violetColor = "#ab68ff"
+grayColor = "#6e6e80"
+
+[theme.sidebar]
+backgroundColor = "#f7f7f8"
+secondaryBackgroundColor = "#ececf1"
+codeBackgroundColor = "#ececf1"
+borderColor = "#e5e5e5"

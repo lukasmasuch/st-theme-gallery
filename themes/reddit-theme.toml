@@ -1,0 +1,48 @@
+# Reddit-inspired Streamlit Theme
+# The front page of the internet aesthetic
+# Signature orangered with clean, community-focused design
+
+[theme]
+primaryColor = "#FF4500"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F7F8"
+codeBackgroundColor = "#F6F7F8"
+textColor = "#1C1C1C"
+linkColor = "#0079D3"
+borderColor = "#EDEFF1"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "full"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1C1C1C"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [700, 700, 600, 600, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#FF4500", "#0079D3", "#46D160", "#FFD635", "#7193FF", "#FF585B", "#00A6A5"]
+
+# Reddit color palette
+orangeColor = "#FF4500"
+blueColor = "#0079D3"
+greenColor = "#46D160"
+yellowColor = "#FFD635"
+violetColor = "#7193FF"
+redColor = "#FF585B"
+grayColor = "#878A8C"
+
+dataframeBorderColor = "#EDEFF1"
+dataframeHeaderBackgroundColor = "#F6F7F8"
+
+[theme.sidebar]
+backgroundColor = "#1A1A1B"
+secondaryBackgroundColor = "#272729"
+codeBackgroundColor = "#0E0E0F"
+textColor = "#D7DADC"
+borderColor = "#343536"
+primaryColor = "#FF4500"
+dataframeHeaderBackgroundColor = "#272729"
+dataframeBorderColor = "#343536"

@@ -1,0 +1,40 @@
+# Discord-inspired Streamlit Theme
+# Uses Open Sans (similar to Discord's gg sans)
+# Discord's design: gaming-friendly, modern, dark with signature blurple
+
+[theme]
+base = "dark"
+primaryColor = "#5865f2"
+backgroundColor = "#313338"
+secondaryBackgroundColor = "#2b2d31"
+codeBackgroundColor = "#1e1f22"
+textColor = "#dbdee1"
+linkColor = "#00a8fc"
+borderColor = "#3f4147"
+showWidgetBorder = false
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "3px"
+font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#b5bac1"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#5865f2", "#57f287", "#fee75c", "#eb459e", "#ed4245", "#00a8fc", "#9b59b6"]
+
+# Discord color palette
+violetColor = "#5865f2"
+greenColor = "#57f287"
+yellowColor = "#fee75c"
+redColor = "#ed4245"
+blueColor = "#00a8fc"
+
+[theme.sidebar]
+backgroundColor = "#1e1f22"
+secondaryBackgroundColor = "#2b2d31"
+codeBackgroundColor = "#1e1f22"
+borderColor = "#3f4147"

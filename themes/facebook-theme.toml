@@ -1,0 +1,48 @@
+# Facebook-inspired Streamlit Theme
+# Social networking aesthetic
+# Signature blue with clean, connected design
+
+[theme]
+primaryColor = "#1877F2"
+backgroundColor = "#F0F2F5"
+secondaryBackgroundColor = "#FFFFFF"
+codeBackgroundColor = "#E4E6EB"
+textColor = "#050505"
+linkColor = "#1877F2"
+borderColor = "#CED0D4"
+showWidgetBorder = false
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "6px"
+font = "'Roboto':https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+codeFont = "'Roboto Mono':https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#050505"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "17px", "15px", "13px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#1877F2", "#42B72A", "#F02849", "#F7B928", "#8A2BE2", "#FF6D00", "#1DA1F2"]
+
+# Facebook color palette
+blueColor = "#1877F2"
+greenColor = "#42B72A"
+redColor = "#F02849"
+yellowColor = "#F7B928"
+violetColor = "#8A2BE2"
+orangeColor = "#FF6D00"
+grayColor = "#65676B"
+
+dataframeBorderColor = "#CED0D4"
+dataframeHeaderBackgroundColor = "#E4E6EB"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F5"
+codeBackgroundColor = "#E4E6EB"
+textColor = "#050505"
+borderColor = "#CED0D4"
+primaryColor = "#1877F2"
+dataframeHeaderBackgroundColor = "#E4E6EB"
+dataframeBorderColor = "#CED0D4"

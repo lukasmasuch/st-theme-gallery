@@ -1,0 +1,48 @@
+# Bootstrap-inspired Streamlit Theme
+# The world's most popular CSS framework aesthetic
+# Clean, functional, reliable design system
+
+[theme]
+primaryColor = "#0d6efd"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+codeBackgroundColor = "#f8f9fa"
+textColor = "#212529"
+linkColor = "#0d6efd"
+borderColor = "#dee2e6"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#d63384"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["40px", "32px", "28px", "24px", "20px", "16px"]
+headingFontWeights = [500, 500, 500, 500, 500, 500]
+linkUnderline = true
+chartCategoricalColors = ["#0d6efd", "#198754", "#dc3545", "#ffc107", "#0dcaf0", "#6f42c1", "#fd7e14"]
+
+# Bootstrap color palette
+blueColor = "#0d6efd"
+greenColor = "#198754"
+redColor = "#dc3545"
+yellowColor = "#ffc107"
+violetColor = "#6f42c1"
+orangeColor = "#fd7e14"
+grayColor = "#6c757d"
+
+dataframeBorderColor = "#dee2e6"
+dataframeHeaderBackgroundColor = "#e9ecef"
+
+[theme.sidebar]
+backgroundColor = "#212529"
+secondaryBackgroundColor = "#343a40"
+codeBackgroundColor = "#1a1d20"
+textColor = "#f8f9fa"
+borderColor = "#495057"
+primaryColor = "#0d6efd"
+dataframeHeaderBackgroundColor = "#343a40"
+dataframeBorderColor = "#495057"

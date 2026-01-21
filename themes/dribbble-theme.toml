@@ -1,0 +1,39 @@
+# Dribbble-inspired Streamlit Theme
+# Uses Haas Grotesk alternative (Inter)
+# Dribbble's design: creative, design-focused, playful with signature pink
+
+[theme]
+primaryColor = "#ea4c89"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f7f4"
+codeBackgroundColor = "#f8f7f4"
+textColor = "#0d0c22"
+linkColor = "#ea4c89"
+borderColor = "#e7e7e9"
+showWidgetBorder = false
+showSidebarBorder = true
+baseRadius = "16px"
+buttonRadius = "full"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#0d0c22"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#ea4c89", "#4dccbd", "#f8c630", "#4f4efd", "#ff6331", "#00bfff", "#a855f7"]
+
+# Dribbble color palette
+redColor = "#ea4c89"
+greenColor = "#4dccbd"
+yellowColor = "#f8c630"
+violetColor = "#4f4efd"
+orangeColor = "#ff6331"
+
+[theme.sidebar]
+backgroundColor = "#f8f7f4"
+secondaryBackgroundColor = "#f0efec"
+codeBackgroundColor = "#f0efec"
+borderColor = "#e7e7e9"

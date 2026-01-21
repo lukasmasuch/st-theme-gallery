@@ -1,0 +1,41 @@
+# Modern Minimal Theme for Streamlit
+# Ultra-clean, contemporary design with subtle accents
+# Inspired by modern SaaS products and design systems
+
+[theme]
+primaryColor = "#6366f1"
+backgroundColor = "#fafafa"
+secondaryBackgroundColor = "#ffffff"
+codeBackgroundColor = "#f4f4f5"
+textColor = "#18181b"
+linkColor = "#6366f1"
+borderColor = "#e4e4e7"
+showWidgetBorder = false
+showSidebarBorder = false
+baseRadius = "12px"
+buttonRadius = "10px"
+font = "'DM Sans':https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap"
+headingFont = "'DM Sans':https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'DM Mono':https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+codeTextColor = "#3f3f46"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["40px", "32px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [600, 600, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#6366f1", "#8b5cf6", "#ec4899", "#f43f5e", "#f97316", "#eab308", "#22c55e", "#06b6d4"]
+
+# Modern color palette (indigo-based)
+violetColor = "#6366f1"
+redColor = "#f43f5e"
+orangeColor = "#f97316"
+yellowColor = "#eab308"
+greenColor = "#22c55e"
+blueColor = "#06b6d4"
+
+[theme.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#fafafa"
+codeBackgroundColor = "#f4f4f5"
+borderColor = "#e4e4e7"

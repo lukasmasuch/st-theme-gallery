@@ -1,0 +1,39 @@
+# Supabase-inspired Streamlit Theme
+# Uses Inter (Supabase's primary font)
+# Supabase's design: modern, developer-focused, dark-first with signature green
+
+[theme]
+base = "dark"
+primaryColor = "#3ecf8e"
+backgroundColor = "#1c1c1c"
+secondaryBackgroundColor = "#2a2a2a"
+codeBackgroundColor = "#2a2a2a"
+textColor = "#ededed"
+linkColor = "#3ecf8e"
+borderColor = "#3a3a3a"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#ededed"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#3ecf8e", "#6366f1", "#f59e0b", "#ef4444", "#8b5cf6", "#14b8a6", "#a855f7"]
+
+# Supabase color palette
+greenColor = "#3ecf8e"
+violetColor = "#6366f1"
+yellowColor = "#f59e0b"
+redColor = "#ef4444"
+
+[theme.sidebar]
+backgroundColor = "#111111"
+secondaryBackgroundColor = "#1c1c1c"
+codeBackgroundColor = "#1c1c1c"
+borderColor = "#2a2a2a"

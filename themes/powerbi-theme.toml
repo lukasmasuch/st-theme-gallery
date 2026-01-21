@@ -1,0 +1,42 @@
+# Power BI Theme for Streamlit
+# Microsoft's business intelligence aesthetic
+# Clean, corporate, data-focused design
+
+[theme]
+primaryColor = "#f2c811"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f2f2f2"
+codeBackgroundColor = "#e6e6e6"
+textColor = "#252423"
+linkColor = "#118dff"
+borderColor = "#c8c6c4"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "2px"
+buttonRadius = "2px"
+font = "'Segoe UI', 'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'Cascadia Code', 'Fira Code':https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap"
+codeFontSize = "13px"
+codeTextColor = "#252423"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 600, 500, 500]
+linkUnderline = false
+# Power BI default color palette
+chartCategoricalColors = ["#118dff", "#12239e", "#e66c37", "#6b007b", "#e044a7", "#744ec2", "#d9b300", "#d64550"]
+
+# Power BI colors
+blueColor = "#118dff"
+orangeColor = "#e66c37"
+yellowColor = "#f2c811"
+violetColor = "#744ec2"
+redColor = "#d64550"
+greenColor = "#107c10"
+
+[theme.sidebar]
+backgroundColor = "#252423"
+secondaryBackgroundColor = "#333333"
+codeBackgroundColor = "#1a1a1a"
+textColor = "#ffffff"
+borderColor = "#484644"

@@ -1,0 +1,39 @@
+# Notion-inspired Streamlit Theme
+# Uses Inter (similar to Notion's typography)
+# Notion's design: clean, minimal, content-focused with warm grays
+
+[theme]
+primaryColor = "#2383e2"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f6f3"
+codeBackgroundColor = "#f7f6f3"
+textColor = "#37352f"
+linkColor = "#2383e2"
+borderColor = "#e9e9e7"
+showWidgetBorder = false
+showSidebarBorder = true
+baseRadius = "3px"
+buttonRadius = "3px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+codeTextColor = "#eb5757"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["40px", "30px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+linkUnderline = true
+chartCategoricalColors = ["#2383e2", "#eb5757", "#f2994a", "#27ae60", "#9b51e0", "#0d9488", "#6366f1"]
+
+# Notion color palette
+blueColor = "#2383e2"
+redColor = "#eb5757"
+orangeColor = "#f2994a"
+greenColor = "#27ae60"
+violetColor = "#9b51e0"
+
+[theme.sidebar]
+backgroundColor = "#f7f6f3"
+secondaryBackgroundColor = "#eeeeec"
+codeBackgroundColor = "#eeeeec"
+borderColor = "#e9e9e7"

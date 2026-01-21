@@ -1,0 +1,48 @@
+# Hugging Face-inspired Streamlit Theme
+# The AI community hub aesthetic
+# Signature yellow, friendly and accessible for ML
+
+[theme]
+primaryColor = "#FFD21E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F9FAFB"
+codeBackgroundColor = "#F3F4F6"
+textColor = "#1F2937"
+linkColor = "#FF9D00"
+borderColor = "#E5E7EB"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "6px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1F2937"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "26px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#FFD21E", "#FF9D00", "#6366F1", "#10B981", "#F43F5E", "#8B5CF6", "#06B6D4"]
+
+# Hugging Face palette
+yellowColor = "#FFD21E"
+orangeColor = "#FF9D00"
+violetColor = "#6366F1"
+greenColor = "#10B981"
+redColor = "#F43F5E"
+blueColor = "#06B6D4"
+grayColor = "#6B7280"
+
+dataframeBorderColor = "#E5E7EB"
+dataframeHeaderBackgroundColor = "#F9FAFB"
+
+[theme.sidebar]
+backgroundColor = "#1F2937"
+secondaryBackgroundColor = "#374151"
+codeBackgroundColor = "#111827"
+textColor = "#F9FAFB"
+borderColor = "#4B5563"
+primaryColor = "#FFD21E"
+dataframeHeaderBackgroundColor = "#374151"
+dataframeBorderColor = "#4B5563"

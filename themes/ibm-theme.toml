@@ -1,0 +1,39 @@
+# IBM-inspired Streamlit Theme
+# Uses IBM Plex Sans (IBM's signature typeface)
+# IBM's design: corporate, professional, trustworthy with signature blue
+
+[theme]
+primaryColor = "#0f62fe"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f4f4"
+codeBackgroundColor = "#f4f4f4"
+textColor = "#161616"
+linkColor = "#0f62fe"
+borderColor = "#e0e0e0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0"
+buttonRadius = "0"
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#161616"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["42px", "32px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#0f62fe", "#6929c4", "#1192e8", "#005d5d", "#9f1853", "#fa4d56", "#570408"]
+
+# IBM Carbon color palette
+blueColor = "#0f62fe"
+violetColor = "#6929c4"
+greenColor = "#198038"
+redColor = "#da1e28"
+yellowColor = "#f1c21b"
+
+[theme.sidebar]
+backgroundColor = "#f4f4f4"
+secondaryBackgroundColor = "#e0e0e0"
+codeBackgroundColor = "#e0e0e0"
+borderColor = "#c6c6c6"

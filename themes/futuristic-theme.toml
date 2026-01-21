@@ -1,0 +1,49 @@
+# Futuristic Theme for Streamlit
+# Cyberpunk-inspired neon aesthetic
+# Electric colors, dark backgrounds, high-tech vibes
+
+[theme]
+base = "dark"
+primaryColor = "#00F0FF"
+backgroundColor = "#0A0A0F"
+secondaryBackgroundColor = "#12121A"
+codeBackgroundColor = "#08080C"
+textColor = "#E0E0E8"
+linkColor = "#00F0FF"
+borderColor = "#2A2A3A"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "2px"
+buttonRadius = "2px"
+font = "'Exo 2':https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap"
+codeFont = "'Share Tech Mono':https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#00F0FF"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [600, 600, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#00F0FF", "#FF00E5", "#00FF88", "#FFE500", "#FF3366", "#8855FF", "#00AAFF"]
+
+# Neon palette
+blueColor = "#00F0FF"
+violetColor = "#FF00E5"
+greenColor = "#00FF88"
+yellowColor = "#FFE500"
+redColor = "#FF3366"
+orangeColor = "#FF8800"
+grayColor = "#6A6A7A"
+
+dataframeBorderColor = "#2A2A3A"
+dataframeHeaderBackgroundColor = "#1A1A25"
+
+[theme.sidebar]
+backgroundColor = "#06060A"
+secondaryBackgroundColor = "#0E0E14"
+codeBackgroundColor = "#04040A"
+textColor = "#E0E0E8"
+borderColor = "#2A2A3A"
+primaryColor = "#FF00E5"
+dataframeHeaderBackgroundColor = "#0E0E14"
+dataframeBorderColor = "#2A2A3A"

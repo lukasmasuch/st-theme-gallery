@@ -1,0 +1,48 @@
+# NVIDIA-inspired Streamlit Theme
+# Uses the signature NVIDIA Green with dark, powerful aesthetic
+# Tech-forward, high-performance computing vibe
+
+[theme]
+base = "dark"
+primaryColor = "#76B900"
+backgroundColor = "#1A1A1A"
+secondaryBackgroundColor = "#242424"
+codeBackgroundColor = "#0D0D0D"
+textColor = "#FFFFFF"
+linkColor = "#76B900"
+borderColor = "#333333"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "4px"
+buttonRadius = "4px"
+font = "'Roboto':https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+codeFont = "'Roboto Mono':https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#E0E0E0"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 500, 500, 500, 500]
+linkUnderline = false
+chartCategoricalColors = ["#76B900", "#004D40", "#00BCD4", "#8BC34A", "#CDDC39", "#FFC107", "#FF5722"]
+
+# NVIDIA-inspired palette
+greenColor = "#76B900"
+blueColor = "#00BCD4"
+yellowColor = "#FFC107"
+orangeColor = "#FF5722"
+redColor = "#F44336"
+violetColor = "#7C4DFF"
+grayColor = "#9E9E9E"
+
+dataframeBorderColor = "#333333"
+dataframeHeaderBackgroundColor = "#2D2D2D"
+
+[theme.sidebar]
+backgroundColor = "#0D0D0D"
+secondaryBackgroundColor = "#1A1A1A"
+codeBackgroundColor = "#000000"
+textColor = "#FFFFFF"
+borderColor = "#333333"
+dataframeHeaderBackgroundColor = "#1A1A1A"
+dataframeBorderColor = "#333333"

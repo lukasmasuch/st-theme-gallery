@@ -1,0 +1,39 @@
+# Tailwind CSS-inspired Streamlit Theme
+# Uses Inter (Tailwind's primary font)
+# Tailwind's design: utility-first, modern, well-crafted with sky/cyan accents
+
+[theme]
+primaryColor = "#0ea5e9"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+codeBackgroundColor = "#f1f5f9"
+textColor = "#0f172a"
+linkColor = "#0ea5e9"
+borderColor = "#e2e8f0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#0f172a"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["36px", "30px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#0ea5e9", "#10b981", "#8b5cf6", "#f59e0b", "#ef4444", "#ec4899", "#64748b"]
+
+# Tailwind color palette
+blueColor = "#0ea5e9"
+greenColor = "#10b981"
+violetColor = "#8b5cf6"
+yellowColor = "#f59e0b"
+redColor = "#ef4444"
+
+[theme.sidebar]
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#f1f5f9"
+codeBackgroundColor = "#e2e8f0"
+borderColor = "#e2e8f0"
