@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+import theme_loader
 from cards import (
     charts_card,
     chat_card,
@@ -15,50 +16,35 @@ from cards import (
     widgets_card,
 )
 
+# Get the themes directory path
+THEMES_DIR = str(Path(__file__).parent / "themes")
+DEFAULT_THEME = "airbnb-theme"
 
-# Theme selector functionality
+
 def get_available_themes():
     """Read all theme files from the themes folder."""
-    themes_dir = Path(__file__).parent / "themes"
+    themes_dir = Path(THEMES_DIR)
     if themes_dir.exists():
         themes = sorted([f.stem for f in themes_dir.glob("*.toml")])
         return themes
     return []
 
 
-def get_current_theme():
-    """Get the currently selected theme from config.toml."""
-    config_path = Path(__file__).parent / ".streamlit" / "config.toml"
-    if config_path.exists():
-        content = config_path.read_text()
-        for line in content.split("\n"):
-            if line.strip().startswith("base"):
-                # Extract the theme path
-                theme_path = line.split("=")[1].strip().strip('"').strip("'")
-                # Extract just the theme name from path like "themes/spotify-theme.toml"
-                if "/" in theme_path:
-                    theme_name = theme_path.split("/")[-1].replace(".toml", "")
-                    return theme_name
-    return None
+# Initialize session state for theme selection
+if "selected_theme" not in st.session_state:
+    st.session_state.selected_theme = DEFAULT_THEME
 
-
-def update_theme(theme_name):
-    """Update the config.toml to use the selected theme."""
-    config_path = Path(__file__).parent / ".streamlit" / "config.toml"
-    theme_path = f"themes/{theme_name}.toml"
-    config_content = f'[theme]\nbase = "{theme_path}"\n'
-    config_path.write_text(config_content)
-
+# Load the theme for this session (must be early, before other st.* calls)
+theme_loader.load_theme_by_name(st.session_state.selected_theme, THEMES_DIR)
 
 # Theme selector in sidebar
 available_themes = get_available_themes()
-current_theme = get_current_theme()
 
 if available_themes:
     # Find current theme index
     current_index = 0
-    if current_theme and current_theme in available_themes:
-        current_index = available_themes.index(current_theme)
+    if st.session_state.selected_theme in available_themes:
+        current_index = available_themes.index(st.session_state.selected_theme)
 
     selected_theme = st.sidebar.selectbox(
         "Theme",
@@ -68,9 +54,9 @@ if available_themes:
         key="theme_selector",
     )
 
-    # Update config if theme changed
-    if selected_theme != current_theme:
-        update_theme(selected_theme)
+    # Update session state if theme changed
+    if selected_theme != st.session_state.selected_theme:
+        st.session_state.selected_theme = selected_theme
         st.rerun()
 
 st.sidebar.divider()
@@ -127,5 +113,5 @@ with st.sidebar.container(height=310):
         )
 
 st.sidebar.caption(
-    f"Current theme: **{current_theme.replace('-theme', '').replace('-', ' ').title() if current_theme else 'Default'}**"
+    f"Current theme: **{st.session_state.selected_theme.replace('-theme', '').replace('-', ' ').title()}**"
 )
