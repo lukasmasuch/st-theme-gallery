@@ -1,0 +1,49 @@
+# Retro Theme for Streamlit
+# Groovy 70s/80s aesthetic
+# Warm earth tones, bold typography, funky vibes
+
+[theme]
+primaryColor = "#FF6B35"
+backgroundColor = "#FFF8E7"
+secondaryBackgroundColor = "#F5E6C8"
+codeBackgroundColor = "#EDD9B5"
+textColor = "#2D1E0F"
+linkColor = "#C44536"
+borderColor = "#D4B896"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "0px"
+buttonRadius = "0px"
+font = "'Outfit':https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+headingFont = "'Righteous':https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+codeFont = "'VT323':https://fonts.googleapis.com/css2?family=VT323&display=swap"
+codeFontSize = "1rem"
+codeTextColor = "#2D1E0F"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["42px", "32px", "26px", "20px", "16px", "14px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = false
+chartCategoricalColors = ["#FF6B35", "#C44536", "#772E25", "#283618", "#606C38", "#DDA15E", "#BC6C25"]
+
+# Retro earth tone palette
+orangeColor = "#FF6B35"
+redColor = "#C44536"
+greenColor = "#606C38"
+yellowColor = "#DDA15E"
+blueColor = "#1D3557"
+violetColor = "#7B2D26"
+grayColor = "#8B7355"
+
+dataframeBorderColor = "#D4B896"
+dataframeHeaderBackgroundColor = "#E8D4B8"
+
+[theme.sidebar]
+backgroundColor = "#772E25"
+secondaryBackgroundColor = "#8B3A2F"
+codeBackgroundColor = "#5C2118"
+textColor = "#FFF8E7"
+borderColor = "#9C4A3D"
+primaryColor = "#FF6B35"
+dataframeHeaderBackgroundColor = "#8B3A2F"
+dataframeBorderColor = "#9C4A3D"
