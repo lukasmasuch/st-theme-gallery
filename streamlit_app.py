@@ -18,7 +18,7 @@ from cards import (
 
 # Get the themes directory path
 THEMES_DIR = str(Path(__file__).parent / "themes")
-DEFAULT_THEME = "jupyter-theme"
+DEFAULT_THEME = "airbnb-theme"
 
 
 def get_available_themes():
