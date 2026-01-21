@@ -56,6 +56,21 @@ def _get_theme_for_section(theme_data: dict, section: str) -> dict | None:
     return None
 
 
+def _get_session_id_from_app_session(app_session: AppSession) -> str | None:
+    """Get session ID from AppSession, handling different Streamlit versions."""
+    # Try different attribute names used across Streamlit versions
+    for attr in ("id", "_session_id", "_session_data"):
+        if hasattr(app_session, attr):
+            value = getattr(app_session, attr)
+            # If it's a string, it's the session ID directly
+            if isinstance(value, str):
+                return value
+            # If it's an object with session_id, get that
+            if hasattr(value, "session_id"):
+                return value.session_id
+    return None
+
+
 def _apply_patch():
     """Apply the monkey-patch to intercept theme config loading."""
     global _PATCHED
@@ -67,11 +82,15 @@ def _apply_patch():
 
     def _patched_create_msg(self, *args, **kwargs):
         # Set the session ID in context before creating the message
-        token = _CURRENT_SESSION_ID.set(self._session_data.session_id)
-        try:
+        session_id = _get_session_id_from_app_session(self)
+        if session_id:
+            token = _CURRENT_SESSION_ID.set(session_id)
+            try:
+                return _original_create_msg(self, *args, **kwargs)
+            finally:
+                _CURRENT_SESSION_ID.reset(token)
+        else:
             return _original_create_msg(self, *args, **kwargs)
-        finally:
-            _CURRENT_SESSION_ID.reset(token)
 
     AppSession._create_new_session_message = _patched_create_msg
 
