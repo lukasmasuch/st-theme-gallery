@@ -1,0 +1,48 @@
+# Streamlit Modern Light Theme
+# A refined, contemporary take on the classic Streamlit look
+# Keeps the signature red but with polished typography and spacing
+
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8F9FA"
+codeBackgroundColor = "#F0F2F6"
+textColor = "#31333F"
+linkColor = "#FF4B4B"
+borderColor = "#E6E9EF"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#31333F"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["32px", "26px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#FF4B4B", "#0068C9", "#83C9FF", "#FF8700", "#29B09D", "#7D44CF", "#F24C3D"]
+
+# Streamlit-inspired palette
+redColor = "#FF4B4B"
+blueColor = "#0068C9"
+greenColor = "#29B09D"
+yellowColor = "#FACA2B"
+orangeColor = "#FF8700"
+violetColor = "#7D44CF"
+grayColor = "#808495"
+
+dataframeBorderColor = "#E6E9EF"
+dataframeHeaderBackgroundColor = "#F0F2F6"
+
+[theme.sidebar]
+backgroundColor = "#F8F9FA"
+secondaryBackgroundColor = "#FFFFFF"
+codeBackgroundColor = "#E6E9EF"
+textColor = "#31333F"
+borderColor = "#E6E9EF"
+primaryColor = "#FF4B4B"
+dataframeHeaderBackgroundColor = "#E6E9EF"
+dataframeBorderColor = "#D5D8DF"

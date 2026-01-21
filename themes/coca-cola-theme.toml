@@ -1,0 +1,48 @@
+# Coca-Cola-inspired Streamlit Theme
+# The iconic red and white aesthetic
+# Classic, refreshing, timeless branding
+
+[theme]
+primaryColor = "#F40009"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FEF7F7"
+codeBackgroundColor = "#FDF2F2"
+textColor = "#1E1E1E"
+linkColor = "#F40009"
+borderColor = "#F5D5D5"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "8px"
+buttonRadius = "full"
+font = "'Lato':https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+codeFont = "'Source Code Pro':https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#1E1E1E"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [900, 700, 700, 700, 700, 700]
+linkUnderline = false
+chartCategoricalColors = ["#F40009", "#000000", "#8B8B8B", "#D4A574", "#1E4D2B", "#FFD700", "#FFFFFF"]
+
+# Coca-Cola palette
+redColor = "#F40009"
+grayColor = "#8B8B8B"
+greenColor = "#1E4D2B"
+yellowColor = "#FFD700"
+blueColor = "#004B87"
+orangeColor = "#FF6F00"
+violetColor = "#6B3074"
+
+dataframeBorderColor = "#F5D5D5"
+dataframeHeaderBackgroundColor = "#FEF7F7"
+
+[theme.sidebar]
+backgroundColor = "#F40009"
+secondaryBackgroundColor = "#D10007"
+codeBackgroundColor = "#B00006"
+textColor = "#FFFFFF"
+borderColor = "#D10007"
+primaryColor = "#FFFFFF"
+dataframeHeaderBackgroundColor = "#D10007"
+dataframeBorderColor = "#B00006"
