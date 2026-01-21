@@ -5,19 +5,32 @@ shared config.toml file. Each browser session can have its own theme.
 """
 
 import tomllib
+from contextvars import ContextVar
 
 import streamlit as st
 from streamlit import config
+from streamlit.runtime.app_session import AppSession
 from streamlit.runtime.scriptrunner import get_script_run_ctx
 
 # Store themes per session (using session ID as key)
 _SESSION_THEMES: dict[str, dict] = {}
-# Fallback for when context isn't available (used during NewSession creation)
-_LAST_THEME: dict | None = None
 _PATCHED = False
+
+# Context variable to track which session is currently creating a NewSession message
+_CURRENT_SESSION_ID: ContextVar[str | None] = ContextVar("current_session_id", default=None)
 
 # Nested sections that should be handled separately
 _NESTED_SECTIONS = {"sidebar", "light", "dark"}
+
+
+def _get_current_session_id() -> str | None:
+    """Get the current session ID from script context or context variable."""
+    # First try script run context (available during script execution)
+    ctx = get_script_run_ctx()
+    if ctx:
+        return ctx.session_id
+    # Fall back to context variable (set during NewSession creation)
+    return _CURRENT_SESSION_ID.get()
 
 
 def _get_theme_for_section(theme_data: dict, section: str) -> dict | None:
@@ -49,21 +62,28 @@ def _apply_patch():
     if _PATCHED:
         return
 
+    # Patch 1: Wrap _create_new_session_message to set session ID context
+    _original_create_msg = AppSession._create_new_session_message
+
+    def _patched_create_msg(self, *args, **kwargs):
+        # Set the session ID in context before creating the message
+        token = _CURRENT_SESSION_ID.set(self._session_data.session_id)
+        try:
+            return _original_create_msg(self, *args, **kwargs)
+        finally:
+            _CURRENT_SESSION_ID.reset(token)
+
+    AppSession._create_new_session_message = _patched_create_msg
+
+    # Patch 2: Intercept get_options_for_section for theme sections
     _original_get_options = config.get_options_for_section
 
     def _patched_get_options(section: str):
         # Only intercept theme-related sections
         if section == "theme" or section.startswith("theme."):
-            # Try session-specific theme first
-            ctx = get_script_run_ctx()
-            theme_data = None
-            if ctx and ctx.session_id in _SESSION_THEMES:
-                theme_data = _SESSION_THEMES[ctx.session_id]
-            elif _LAST_THEME is not None:
-                # Fall back to last set theme
-                theme_data = _LAST_THEME
-
-            if theme_data:
+            session_id = _get_current_session_id()
+            if session_id and session_id in _SESSION_THEMES:
+                theme_data = _SESSION_THEMES[session_id]
                 result = _get_theme_for_section(theme_data, section)
                 if result is not None:
                     return result
@@ -83,7 +103,6 @@ def load_theme(theme_path: str) -> bool:
     Returns:
         True if theme was loaded and rerun triggered, False if already loaded.
     """
-    global _LAST_THEME
     _apply_patch()
 
     ctx = get_script_run_ctx()
@@ -99,9 +118,8 @@ def load_theme(theme_path: str) -> bool:
     if current_theme == theme_data:
         return False
 
-    # Update both session-specific and fallback theme
+    # Update session-specific theme
     _SESSION_THEMES[ctx.session_id] = theme_data
-    _LAST_THEME = theme_data
     st.rerun()
     return True
 
