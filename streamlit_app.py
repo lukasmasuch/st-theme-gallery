@@ -77,6 +77,43 @@ if available_themes:
         st.query_params["theme"] = selected_theme
         st.rerun()
 
+
+@st.dialog("Install Theme")
+def show_install_dialog():
+    """Show installation instructions for the selected theme."""
+    theme_name = st.session_state.selected_theme
+    theme_path = Path(THEMES_DIR) / f"{theme_name}.toml"
+
+    # Read the theme file content
+    with open(theme_path, "r") as f:
+        theme_content = f.read()
+
+    display_name = theme_name.replace("-theme", "").replace("-", " ").title()
+    st.markdown(f"### {display_name} Theme")
+
+    st.markdown(
+        "To install this theme, create or update your `.streamlit/config.toml` file "
+        "with the following content:"
+    )
+
+    st.code(theme_content, language="toml")
+
+    st.markdown("**Steps:**")
+    st.markdown(
+        """
+1. Create a `.streamlit` folder in your project root (if it doesn't exist)
+2. Create a `config.toml` file inside `.streamlit/`
+3. Paste the theme configuration above
+4. Restart your Streamlit app
+"""
+    )
+
+
+if st.sidebar.button(
+    "Install Theme", icon=":material/download:", use_container_width=True
+):
+    show_install_dialog()
+
 st.sidebar.divider()
 
 if "init" not in st.session_state:
