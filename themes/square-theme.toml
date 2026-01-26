@@ -1,0 +1,48 @@
+# Square/Block-inspired Streamlit Theme
+# Clean, modern payment platform aesthetic
+# Bold simplicity with professional edges
+
+[theme]
+primaryColor = "#006AFF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F5"
+codeBackgroundColor = "#1A1A1A"
+textColor = "#1A1A1A"
+linkColor = "#006AFF"
+borderColor = "#E5E5E5"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "0px"
+buttonRadius = "0px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+codeTextColor = "#E5E5E5"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["40px", "32px", "24px", "20px", "16px", "14px"]
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+linkUnderline = false
+chartCategoricalColors = ["#006AFF", "#00D64F", "#1A1A1A", "#FF5C00", "#FF2D55", "#AF52DE", "#5AC8FA"]
+
+# Square/Block color palette
+blueColor = "#006AFF"
+greenColor = "#00D64F"
+redColor = "#FF2D55"
+orangeColor = "#FF5C00"
+yellowColor = "#FFCC00"
+violetColor = "#AF52DE"
+grayColor = "#8E8E93"
+
+dataframeBorderColor = "#E5E5E5"
+dataframeHeaderBackgroundColor = "#F5F5F5"
+
+[theme.sidebar]
+backgroundColor = "#1A1A1A"
+secondaryBackgroundColor = "#2A2A2A"
+codeBackgroundColor = "#0A0A0A"
+textColor = "#FFFFFF"
+borderColor = "#3A3A3A"
+primaryColor = "#006AFF"
+dataframeHeaderBackgroundColor = "#2A2A2A"
+dataframeBorderColor = "#3A3A3A"
