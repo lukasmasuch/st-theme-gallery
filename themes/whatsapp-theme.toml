@@ -1,0 +1,69 @@
+# WhatsApp-inspired Streamlit theme
+
+[theme]
+primaryColor = "#25D366"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#ECE5DD"
+codeBackgroundColor = "#DCF8C6"
+textColor = "#111B21"
+linkColor = "#128C7E"
+borderColor = "#D1D7DB"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "20px"
+
+# Typography
+font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+codeFont = "'Roboto Mono':https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+codeFontSize = "13px"
+codeTextColor = "#111B21"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [600, 600, 600, 500, 500, 500]
+linkUnderline = false
+
+# Chart colors using WhatsApp palette
+chartCategoricalColors = ["#25D366", "#128C7E", "#075E54", "#34B7F1", "#00A884", "#1FA855", "#53BDEB"]
+
+# Semantic colors
+greenColor = "#25D366"
+greenBackgroundColor = "#DCF8C6"
+greenTextColor = "#075E54"
+blueColor = "#34B7F1"
+blueBackgroundColor = "#D9FDD3"
+blueTextColor = "#075E54"
+grayColor = "#667781"
+redColor = "#EA0038"
+yellowColor = "#FFC300"
+
+# Dataframe styling
+dataframeBorderColor = "#D1D7DB"
+dataframeHeaderBackgroundColor = "#ECE5DD"
+
+# Sidebar - WhatsApp dark teal header style
+[theme.sidebar]
+backgroundColor = "#075E54"
+secondaryBackgroundColor = "#064E47"
+codeBackgroundColor = "#054640"
+textColor = "#ffffff"
+borderColor = "#128C7E"
+primaryColor = "#25D366"
+
+# Dark mode variant
+[theme.dark]
+primaryColor = "#25D366"
+backgroundColor = "#111B21"
+secondaryBackgroundColor = "#202C33"
+codeBackgroundColor = "#005C4B"
+textColor = "#E9EDEF"
+linkColor = "#53BDEB"
+borderColor = "#2A3942"
+
+[theme.dark.sidebar]
+backgroundColor = "#0B141A"
+secondaryBackgroundColor = "#111B21"
+codeBackgroundColor = "#005C4B"
+textColor = "#E9EDEF"
+borderColor = "#2A3942"
