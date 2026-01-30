@@ -3,12 +3,12 @@
 
 [theme]
 # Core Amazon colors
-primaryColor = "#FF9900"           # Amazon orange - primary buttons, links, accents
-backgroundColor = "#FFFFFF"        # Clean white background
-secondaryBackgroundColor = "#F7F8F8"  # Light gray for cards and secondary areas
-textColor = "#0F1111"              # Near-black text (Amazon's body text)
-linkColor = "#007185"              # Amazon teal for links
-borderColor = "#D5D9D9"            # Light gray borders
+primaryColor = "#FF9900"             # Amazon orange - primary buttons, links, accents
+backgroundColor = "#FFFFFF"          # Clean white background
+secondaryBackgroundColor = "#F7F8F8" # Light gray for cards and secondary areas
+textColor = "#0F1111"                # Near-black text (Amazon's body text)
+linkColor = "#007185"                # Amazon teal for links
+borderColor = "#D5D9D9"              # Light gray borders
 
 # Code styling
 codeBackgroundColor = "#F7F8F8"
@@ -17,7 +17,7 @@ codeTextColor = "#0F1111"
 # Widget styling
 showWidgetBorder = true
 showSidebarBorder = true
-baseRadius = "8px"                 # Rounded corners like Amazon buttons
+baseRadius = "8px"       # Rounded corners like Amazon buttons
 buttonRadius = "8px"
 
 # Typography - Amazon uses their proprietary "Amazon Ember" but we use a similar sans-serif
@@ -34,13 +34,13 @@ headingFontWeights = [700, 700, 600, 600, 500, 500]
 linkUnderline = false
 
 # Semantic colors matching Amazon's UI
-blueColor = "#007185"              # Amazon teal/blue for links and info
-greenColor = "#067D62"             # Success green (Prime green variant)
-yellowColor = "#FFD814"            # Amazon yellow (Buy button)
-orangeColor = "#FF9900"            # Amazon orange
-redColor = "#B12704"               # Amazon price red / error
-violetColor = "#7B5AA6"            # Supporting purple
-grayColor = "#565959"              # Secondary text gray
+blueColor = "#007185"   # Amazon teal/blue for links and info
+greenColor = "#067D62"  # Success green (Prime green variant)
+yellowColor = "#FFD814" # Amazon yellow (Buy button)
+orangeColor = "#FF9900" # Amazon orange
+redColor = "#B12704"    # Amazon price red / error
+violetColor = "#7B5AA6" # Supporting purple
+grayColor = "#565959"   # Secondary text gray
 
 # Green with background variants (for success states)
 greenBackgroundColor = "#E7F4E4"
@@ -51,8 +51,27 @@ redBackgroundColor = "#FFECEA"
 redTextColor = "#B12704"
 
 # Chart colors - Amazon-inspired palette
-chartCategoricalColors = ["#FF9900", "#232F3E", "#007185", "#067D62", "#FFD814", "#B12704", "#565959"]
-chartSequentialColors = ["#FFF8E7", "#FFE8B3", "#FFD580", "#FFC24D", "#FFAF1A", "#FF9900", "#E68A00", "#CC7A00", "#B36B00", "#995C00"]
+chartCategoricalColors = [
+    "#FF9900",
+    "#232F3E",
+    "#007185",
+    "#067D62",
+    "#FFD814",
+    "#B12704",
+    "#565959",
+]
+chartSequentialColors = [
+    "#FFF8E7",
+    "#FFE8B3",
+    "#FFD580",
+    "#FFC24D",
+    "#FFAF1A",
+    "#FF9900",
+    "#E68A00",
+    "#CC7A00",
+    "#B36B00",
+    "#995C00",
+]
 
 # Dataframe styling
 dataframeBorderColor = "#D5D9D9"
@@ -60,30 +79,9 @@ dataframeHeaderBackgroundColor = "#F7F8F8"
 
 # Sidebar - Amazon dark navy theme
 [theme.sidebar]
-backgroundColor = "#232F3E"        # Amazon dark navy
-secondaryBackgroundColor = "#37475A"  # Lighter navy for hover/active
+backgroundColor = "#232F3E"          # Amazon dark navy
+secondaryBackgroundColor = "#37475A" # Lighter navy for hover/active
 codeBackgroundColor = "#37475A"
-textColor = "#FFFFFF"              # White text on dark
+textColor = "#FFFFFF"                # White text on dark
 borderColor = "#37475A"
-primaryColor = "#FF9900"           # Orange accents in sidebar
-
-# Dark mode variant
-[theme.dark]
-primaryColor = "#FF9900"
-backgroundColor = "#0F1111"        # Amazon dark background
-secondaryBackgroundColor = "#1A1A1A"
-codeBackgroundColor = "#1A1A1A"
-textColor = "#E6E6E6"
-linkColor = "#4DB8C8"              # Lighter teal for dark mode
-borderColor = "#3D4F58"
-codeTextColor = "#E6E6E6"
-
-blueColor = "#4DB8C8"
-greenColor = "#4CAF7D"
-redColor = "#E25C5C"
-
-[theme.dark.sidebar]
-backgroundColor = "#131921"        # Darker navy
-secondaryBackgroundColor = "#232F3E"
-textColor = "#FFFFFF"
-borderColor = "#232F3E"
+primaryColor = "#FF9900"             # Orange accents in sidebar
