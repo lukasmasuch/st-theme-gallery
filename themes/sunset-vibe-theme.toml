@@ -31,8 +31,27 @@ blueColor = "#0096C7"
 violetColor = "#7B2CBF"
 grayColor = "#6C584C"
 
-chartCategoricalColors = ["#E85D04", "#D00000", "#FAA307", "#7B2CBF", "#DC2F02", "#FFBA08", "#9D4EDD"]
-chartSequentialColors = ["#FFF8F0", "#FFE8D6", "#FFCDB2", "#FFB088", "#FF9B6A", "#F48C06", "#E85D04", "#DC2F02", "#D00000", "#9D0208"]
+chartCategoricalColors = [
+    "#E85D04",
+    "#D00000",
+    "#FAA307",
+    "#7B2CBF",
+    "#DC2F02",
+    "#FFBA08",
+    "#9D4EDD",
+]
+chartSequentialColors = [
+    "#FFF8F0",
+    "#FFE8D6",
+    "#FFCDB2",
+    "#FFB088",
+    "#FF9B6A",
+    "#F48C06",
+    "#E85D04",
+    "#DC2F02",
+    "#D00000",
+    "#9D0208",
+]
 
 dataframeBorderColor = "#FFBA8A"
 dataframeHeaderBackgroundColor = "#FFE8D6"
@@ -43,21 +62,4 @@ secondaryBackgroundColor = "#6A040F"
 codeBackgroundColor = "#370617"
 textColor = "#FFF8F0"
 borderColor = "#D00000"
-primaryColor = "#FAA307"
-
-[theme.dark]
-primaryColor = "#FAA307"
-backgroundColor = "#370617"
-secondaryBackgroundColor = "#6A040F"
-codeBackgroundColor = "#03071E"
-textColor = "#FFE8D6"
-linkColor = "#FFBA08"
-borderColor = "#9D0208"
-
-[theme.dark.sidebar]
-backgroundColor = "#03071E"
-secondaryBackgroundColor = "#370617"
-codeBackgroundColor = "#03071E"
-textColor = "#FFE8D6"
-borderColor = "#6A040F"
 primaryColor = "#FAA307"

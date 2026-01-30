@@ -25,7 +25,15 @@ headingFontWeights = [600, 600, 600, 500, 500, 500]
 linkUnderline = false
 
 # Chart colors using WhatsApp palette
-chartCategoricalColors = ["#25D366", "#128C7E", "#075E54", "#34B7F1", "#00A884", "#1FA855", "#53BDEB"]
+chartCategoricalColors = [
+    "#25D366",
+    "#128C7E",
+    "#075E54",
+    "#34B7F1",
+    "#00A884",
+    "#1FA855",
+    "#53BDEB",
+]
 
 # Semantic colors
 greenColor = "#25D366"
@@ -50,20 +58,3 @@ codeBackgroundColor = "#054640"
 textColor = "#ffffff"
 borderColor = "#128C7E"
 primaryColor = "#25D366"
-
-# Dark mode variant
-[theme.dark]
-primaryColor = "#25D366"
-backgroundColor = "#111B21"
-secondaryBackgroundColor = "#202C33"
-codeBackgroundColor = "#005C4B"
-textColor = "#E9EDEF"
-linkColor = "#53BDEB"
-borderColor = "#2A3942"
-
-[theme.dark.sidebar]
-backgroundColor = "#0B141A"
-secondaryBackgroundColor = "#111B21"
-codeBackgroundColor = "#005C4B"
-textColor = "#E9EDEF"
-borderColor = "#2A3942"
