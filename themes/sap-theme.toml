@@ -1,0 +1,78 @@
+# SAP Fiori Light Theme
+# Based on SAP Fiori design system guidelines
+
+[theme]
+base = "light"
+
+# Primary interactive color - SAP Blue (used for buttons, links, active elements)
+primaryColor = "#0A6ED1"
+
+# Background colors
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F7F7"
+codeBackgroundColor = "#EAECEE"
+
+# Text colors
+textColor = "#32363A"
+linkColor = "#0A6ED1"
+
+# Border styling
+borderColor = "#89919A"
+showWidgetBorder = true
+showSidebarBorder = true
+
+# Rounded corners (SAP Fiori uses subtle rounding)
+baseRadius = "8px"
+buttonRadius = "8px"
+
+# Typography - SAP uses 72 font, fallback to system fonts
+font = "'72':https://fonts.googleapis.com/css2?family=72:wght@400;500;600;700&display=swap"
+headingFont = "'72':https://fonts.googleapis.com/css2?family=72:wght@600;700&display=swap"
+codeFont = "'72 Mono':https://fonts.googleapis.com/css2?family=72+Mono:wght@400;500&display=swap"
+
+baseFontSize = 14
+baseFontWeight = 400
+codeTextColor = "#32363A"
+codeFontSize = "13px"
+codeFontWeight = 400
+headingFontSizes = ["32px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [700, 700, 600, 600, 500, 500]
+linkUnderline = false
+
+# SAP Semantic colors
+blueColor = "#0A6ED1"
+greenColor = "#107E3E"
+yellowColor = "#E9730C"
+orangeColor = "#E9730C"
+redColor = "#BB0000"
+violetColor = "#6C32A9"
+grayColor = "#6A6D70"
+
+# Status background colors (lighter tints)
+greenBackgroundColor = "#F5FAE5"
+greenTextColor = "#256F3A"
+redBackgroundColor = "#FFEBEB"
+redTextColor = "#BB0000"
+yellowBackgroundColor = "#FEF7F1"
+yellowTextColor = "#E9730C"
+blueBackgroundColor = "#EBF5FE"
+blueTextColor = "#0A6ED1"
+
+# Chart colors - SAP qualitative palette
+chartCategoricalColors = ["#0A6ED1", "#107E3E", "#E9730C", "#BB0000", "#6C32A9", "#1B90FF", "#5DC122"]
+
+# Sequential colors for heatmaps (SAP blue gradient)
+chartSequentialColors = ["#EBF5FE", "#D1E8FC", "#A9D4FA", "#7FC1F8", "#54ADF6", "#0A6ED1", "#0854A0", "#074078", "#052D55", "#031E38"]
+
+# Dataframe styling
+dataframeBorderColor = "#89919A"
+dataframeHeaderBackgroundColor = "#F7F7F7"
+
+# Sidebar - slightly darker for visual hierarchy
+[theme.sidebar]
+backgroundColor = "#F7F7F7"
+secondaryBackgroundColor = "#EAECEE"
+codeBackgroundColor = "#E5E5E5"
+textColor = "#32363A"
+borderColor = "#89919A"
+primaryColor = "#0A6ED1"
