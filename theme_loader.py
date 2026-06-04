@@ -113,24 +113,20 @@ def _apply_patch():
     _PATCHED = True
 
 
-def load_theme(theme_path: str) -> bool:
-    """Load per-session theme from a TOML file.
+def _set_session_theme(theme_data: dict) -> bool:
+    """Store theme_data for the current session; rerun if it changed.
 
     Args:
-        theme_path: Path to the theme TOML file.
+        theme_data: The theme options dict (contents of the [theme] table).
 
     Returns:
-        True if theme was loaded and rerun triggered, False if already loaded.
+        True if theme changed and rerun triggered, False if already loaded.
     """
     _apply_patch()
 
     ctx = get_script_run_ctx()
     if ctx is None:
         return False
-
-    # Load theme data (tomllib requires binary mode)
-    with open(theme_path, "rb") as f:
-        theme_data = tomllib.load(f).get("theme", {})
 
     # Check if this is a new theme for this session
     current_theme = _SESSION_THEMES.get(ctx.session_id)
@@ -141,6 +137,37 @@ def load_theme(theme_path: str) -> bool:
     _SESSION_THEMES[ctx.session_id] = theme_data
     st.rerun()
     return True
+
+
+def load_theme(theme_path: str) -> bool:
+    """Load per-session theme from a TOML file.
+
+    Args:
+        theme_path: Path to the theme TOML file.
+
+    Returns:
+        True if theme was loaded and rerun triggered, False if already loaded.
+    """
+    # Load theme data (tomllib requires binary mode)
+    with open(theme_path, "rb") as f:
+        theme_data = tomllib.load(f).get("theme", {})
+    return _set_session_theme(theme_data)
+
+
+def load_theme_from_toml(toml_text: str) -> bool:
+    """Load per-session theme from an in-memory TOML string.
+
+    Args:
+        toml_text: Raw TOML text containing a [theme] table.
+
+    Returns:
+        True if theme was loaded and rerun triggered, False if already loaded.
+
+    Raises:
+        tomllib.TOMLDecodeError: If toml_text is malformed (caller handles).
+    """
+    theme_data = tomllib.loads(toml_text).get("theme", {})
+    return _set_session_theme(theme_data)
 
 
 def load_theme_by_name(theme_name: str, themes_dir: str) -> bool:
