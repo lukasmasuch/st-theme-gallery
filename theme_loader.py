@@ -154,6 +154,25 @@ def load_theme(theme_path: str) -> bool:
     return _set_session_theme(theme_data)
 
 
+def parse_theme_toml(toml_text: str) -> dict:
+    """Parse TOML text and return its [theme] table.
+
+    Args:
+        toml_text: Raw TOML text containing a [theme] table.
+
+    Returns:
+        The [theme] table as a dict (empty if absent).
+
+    Raises:
+        tomllib.TOMLDecodeError: If toml_text is not valid TOML.
+        ValueError: If a [theme] value is present but is not a table.
+    """
+    theme_data = tomllib.loads(toml_text).get("theme", {})
+    if not isinstance(theme_data, dict):
+        raise ValueError("The [theme] section must be a table.")
+    return theme_data
+
+
 def load_theme_from_toml(toml_text: str) -> bool:
     """Load per-session theme from an in-memory TOML string.
 
@@ -165,9 +184,9 @@ def load_theme_from_toml(toml_text: str) -> bool:
 
     Raises:
         tomllib.TOMLDecodeError: If toml_text is malformed (caller handles).
+        ValueError: If the [theme] section is not a table (caller handles).
     """
-    theme_data = tomllib.loads(toml_text).get("theme", {})
-    return _set_session_theme(theme_data)
+    return _set_session_theme(parse_theme_toml(toml_text))
 
 
 def load_theme_by_name(theme_name: str, themes_dir: str) -> bool:

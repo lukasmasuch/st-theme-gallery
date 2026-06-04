@@ -110,7 +110,7 @@ if st.session_state.selected_theme == CUSTOM_THEME_SENTINEL:
         try:
             theme_loader.load_theme_from_toml(custom_toml)
             loaded = True
-        except tomllib.TOMLDecodeError:
+        except (tomllib.TOMLDecodeError, ValueError):
             loaded = False
     if not loaded:
         # Malformed custom theme: fall back to default and clear custom state.
@@ -239,9 +239,9 @@ def show_fork_dialog():
     if st.button("Save", type="primary", icon=":material/save:"):
         # Validate the edited TOML before committing.
         try:
-            tomllib.loads(toml_text)
-        except tomllib.TOMLDecodeError as exc:
-            st.error(f"Invalid TOML: {exc}")
+            theme_loader.parse_theme_toml(toml_text)
+        except (tomllib.TOMLDecodeError, ValueError) as exc:
+            st.error(f"Invalid theme: {exc}")
             return
 
         st.session_state.custom_theme_name = name
